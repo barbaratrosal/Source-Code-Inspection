@@ -30,7 +30,7 @@ public class TicketMachine {
         if (!achou) {
             throw new PapelMoedaInvalidaException();
         }
-        this.saldo += quantia;
+        this.saldo += valor;
     }
 
     public int getSaldo() {
